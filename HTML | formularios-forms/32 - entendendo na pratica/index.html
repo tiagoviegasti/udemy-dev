@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOMULÁRIOS - Entendendo na prática</title>
+</head>
+<body>
+  <form action="/processa.html">
+    <!-- O atributo "action" define para qual arquivo serão enviados os dados do fomulário -->
+    <!-- O atributo "method" define a forma de envio dos dados do fomulário entre GET e POST. O GET passa os dados pelo cabeçalho do browser, não sendo um método seguro para envio de informações sensíveis. Já o POST envia os dados de forma oculta, mais apropriado para senhas e afins -->
+
+    Login: <br>
+    <input type="email" name="email" placeholder="digite um email"><br>
+    
+    Senha: <br>
+    <input type="password" name="senha"><br>
+
+    Comentário: <br>
+    <textarea name="comentario" placeholder="Digite um comentário">TESTE</textarea><br>
+
+    <!-- <input type="submit" value="Entrar"> -->
+
+    <button type="submit">Enviar</button> <!-- faz automaticamente o submit -->
+
+  </form>
+</body>
+</html>
