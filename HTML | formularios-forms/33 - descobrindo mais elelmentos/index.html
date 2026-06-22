@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários - Descobrindo mais elementos</title>
+</head>
+<body>
+  <h1>Mais sobre formulários</h1>
+  <form action="processa.html" method="GET">
+
+    <h2>Label</h2>
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" name="nome"><br>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email"><br><br>
+
+    <h2>Radio</h2>
+
+    Gênero:<br>
+    <input type="radio" name="genero" value="feminino" id="feminino">
+    <label for="feminino">Feminino</label><br>
+    <input type="radio" name="genero" value="masculino" id="masculino">
+    <label for="masculino">Masculino</label><br><br>
+    Tipo:<br>
+    <input type="radio" name="tipo" value="web" id="web">
+    <label for="web">web</label><br>
+    <input type="radio" name="tipo" value="app" id="app">
+    <label for="app">app</label><br><br>
+
+    <h2>Checkbox</h2>
+
+    Estilo musical:<br>
+    
+    <input type="checkbox" name="estilo" value="rock" id="rock">
+    <label for="rock">rock</label><br>
+    <input type="checkbox" name="estilo" value="mpb" id="mpb">
+    <label for="mpb">mpb</label><br>
+    <input type="checkbox" name="estilo" value="classica" id="classica">
+    <label for="classica">clássica</label><br>
+    <input type="checkbox" name="estilo" value="jazz" id="jazz">
+    <label for="jazz">jazz</label><br><br>
+
+    <h2>Option</h2>
+
+    Estado:
+    <select name="estado">
+      <option value="sp">São Paulo</option>
+      <option value="rj">Rio de Janeiro</option>
+      <option value="mg">Minas Gerais</option>
+      <option value="df">Distrito Federal</option>
+      <option value="sc">Santa Catarina</option>
+      <option value="ba">Bahia</option>
+    </select><br><br>
+
+    <h2>Upload de arquivos</h2>
+
+    Enviar:
+    <input type="file" name="arquivo"><br><br>
+
+    <h2>Fieldset e Legend</h2>
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="nome2">Nome</label>
+      <input id="nome2" type="text" name="nome2"><br>
+      <label for="email2">Email</label>
+      <input id="email2" type="email" name="email2"><br><br>
+    </fieldset>
+    <fieldset>
+      <legend>Endereço</legend>
+      <input type="text" name="endereco1"> número: <input type="text" name="endereco2" maxlength="6" size="6"><br>
+      complemento: <input type="text" name="endereco2"><br>
+      cidade: <input type="text" name="cidade"> estado: <input type="text" name="estado2" id="estado2" minlength="2" maxlength="2" size="2">
+    </fieldset><br><br>
+
+    <input type="submit" value="cadastrar">
+
+
+  </form>
+</body>
+</html>
