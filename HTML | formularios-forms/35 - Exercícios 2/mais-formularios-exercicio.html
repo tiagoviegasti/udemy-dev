@@ -7,23 +7,32 @@
 </head>
 <body>
   <h1>Exercício de formulários</h1>
-  <form action="" method="GET">
+  <form action="../processa.html" method="GET">
     <fieldset>
+
       <legend>Dados pessoais</legend>
       <label for="nome">Nome</label><br>
       <input id="nome" type="text" name="nome"><br>
+
       <label for="email">Email</label><br>
       <input id="email" type="email" name="email"><br>
-      <input type="checkbox" name="receber-email">Quero receber email<br><br>
+      
+      <input type="checkbox" name="receber-email" value="ativado">Quero receber email<br><br>
       <label for="senha">Senha</label><br>
+
       <input id="senha" type="password" name="senha">
+      
     </fieldset>
     <fieldset>
+
       <legend>Informações adicionais</legend>
-      <input id="cpf" type="radio" name="pessoa" value="cpf">
-      <label for="cpf">Pessoa Física</label>
-      <input id="cnpj" type="radio" name="pessoa" value="cnpj">
-      <label for="cnpj">Pessoa Jurídica</label>
+      
+      <input id="pf" type="radio" name="tipo" value="pf">
+      <label for="pf">Pessoa Física</label>
+
+      <input id="pj" type="radio" name="tipo" value="pj">
+      <label for="pj">Pessoa Jurídica</label>
+
     </fieldset>
     <br>
     <input type="submit" value="Cadastrar">
