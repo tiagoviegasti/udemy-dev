@@ -1,1 +1,0 @@
-Diretório dedicado ao aprendizado de Desenvolvimento Web | Dedicated directory to apprenticeship of Web Development

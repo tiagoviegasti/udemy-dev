@@ -2,5 +2,5 @@
 
 ### SEÇÃO 1: BOAS-VINDAS
 
-##### [X] 1. Boas-vindas
-##### [ ] 2. Canais de comunicação
+- [X] 1. Boas-vindas
+- [ ] 2. Canais de comunicação
