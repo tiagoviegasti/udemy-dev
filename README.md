@@ -750,5 +750,22 @@
 
 ### SEÇÃO 35: GIT E GITHUB
 
-- [ ] 
-- [ ] 
+- [ ] 647. Controle de versão com Git & Conceitos importantes
+- [ ] 648. Instalação do Git - Windows
+- [ ] 649. Instalação do Git - Mac
+- [ ] 650. O que é uma Branch (Ramificação)
+- [ ] 651. Comandos básicos para o terminal
+- [ ] 652. Criando seu primeiro repositório GIT
+- [ ] 653. Utilizando comandos Add & Commit
+- [ ] 654. Criando conta no GitHub
+- [ ] 655. Configurando chave SSH
+- [ ] 656. Clonando projeto com o GIT
+- [ ] 657. Subindo alterações para o GitHub
+- [ ] 658. Baixando alterações com o Git pull
+- [ ] 659. Sincronizando projeto com o Github
+
+### SEÇÃO 36: CONTEÚDOS BÔNUS
+
+- [ ] 660. Dicas práticas para escrever um código limpo
+- [ ] 661. Subindo seu portfólio no Github
+
