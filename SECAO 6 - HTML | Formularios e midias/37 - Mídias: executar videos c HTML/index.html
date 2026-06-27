@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias com HTML</title>
+</head>
+<body>
+  <h1>Executando vídeos</h1>
+  <video width="500" height="200" controls muted autoplay loop>
+    <!-- 
+      source: fonte do vídeo interna ou externa (link)
+      controls: controles do vídeo
+      muted: inicia o vídeo mutado
+      autoplay: inicia execução automática
+      loop: inicia e continua tocando em ciclos
+      poster: permite definir uma miniatura (thumb)
+    -->
+    <source src="videos/abelhas.mp4"> <!-- source: fonte do vídeo -->
+    Seu navegador não suporta a versão do vídeo!
+  </video>
+
+  <iframe width="560" height="315"
+    src="https://www.youtube-nocookie.com/embed/U2JFpCiuurs?si=xzRcSOGnuczQXJMS&amp;start=2" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+  >
+    <!-- 
+      O iframe permite incorporar conteúdos externos à página de forma inline no HTML.  
+    -->
+  </iframe>
+</body>
+
+
+</html>
