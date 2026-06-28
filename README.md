@@ -53,7 +53,7 @@
 - [X] 35. Formulários: Exercício 2
 - [X] 36. HTML: Caracteres especiais
 - [X] 37. Mídias: Executar vídeos c/ HTML
-- [ ] 38. VS Code: Emmet
+- [X] 38. VS Code: Emmet
 - [ ] 39. [Projeto] Site Oficial do Discord
 
 ### SEÇÃO 7: INTRODUÇÃO AO CSS
