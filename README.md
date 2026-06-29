@@ -54,13 +54,13 @@
 - [X] 36. HTML: Caracteres especiais
 - [X] 37. Mídias: Executar vídeos c/ HTML
 - [X] 38. VS Code: Emmet
-- [ ] 39. [Projeto] Site Oficial do Discord
+- [X] 39. [Projeto] Site Oficial do Discord
 
 ### SEÇÃO 7: INTRODUÇÃO AO CSS
 
-- [ ] 40. Por que precisamos de CSS
-- [ ] 41. Entendendo conceitos importantes
-- [ ] 42. Como adicionar e aplicar CSS
+- [X] 40. Por que precisamos de CSS
+- [X] 41. Entendendo conceitos importantes
+- [X] 42. Como adicionar e aplicar CSS
 
 ### SEÇÃO 8: PROPRIEDADES CSS
 
