@@ -67,7 +67,7 @@
 ### SEÇÃO 8: PROPRIEDADES CSS
 
 - [X] 43. Div e Span (Teoria) 
-- [ ] 44. Div e Span (Prática) - Parte 1
+- [X] 44. Div e Span (Prática) - Parte 1
 - [ ] 45. Div e Span (Prática) - Parte 2
 - [ ] 46. Fontes e Cores (Teoria)
 - [ ] 47. Fontes e Cores (Prática)
