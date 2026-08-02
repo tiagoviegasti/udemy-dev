@@ -843,7 +843,7 @@ __________________________
 ### SECTION 8: CSS PROPERTIES
 
 - [X] 43. Div and Span (Theory)
-- [ ] 44. Div and Span (Practice) - Part 1
+- [X] 44. Div and Span (Practice) - Part 1
 - [ ] 45. Div and Span (Practice) - Part 2
 - [ ] 46. Fonts and Colors (Theory)
 - [ ] 47. Fonts and Colors (Practice)
